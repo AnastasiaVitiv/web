@@ -5,6 +5,8 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 
@@ -13,8 +15,11 @@
   flex-direction: column; 
   height: fit-content;
   padding-bottom: 15%;
-  padding-right: 100px;
-  padding-left: 100px;
+  width: 70%;
+}
+
+.text {
+  width: 70%;
 }
 
 .stars {
@@ -47,9 +52,11 @@
 
 .testimonial__image img {
   border-radius: 14px;
-  padding-right: 100px;
-  padding-left: 100px;
+  /* padding-right: 100px; */
+  /* padding-left: 100px; */
+  width: 100%;
 }
+
 
 @media screen and (max-width: 768px) {
 
