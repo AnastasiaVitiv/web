@@ -1,9 +1,8 @@
 .hero {
-  height: 100vh;
   padding-top: 27px;
   display: flex;
   flex-direction: column;
-  
+  height: 100%;
 }
 
 .hero__button {
@@ -28,6 +27,10 @@
   align-items: center;
   gap: 50px;
   justify-content: space-around;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 5%;
+  background-color: greenyellow;
 }
 
 .hero__inner {
@@ -38,41 +41,22 @@
 }
 
 .hero__image {
-  padding-left: 44px;
-  padding-top: 138px;
-  padding-right: 77px;
+  padding-left: 12%;
+  padding-top: 3%;
+  padding-right: 7%;
+}
+
+.hero__image img {
+  width: 100%;
+  height: 100%;
 }
 
 
 @media screen and (max-width: 768px) {
-  .container__hero{
-    width: 100rem;
-    height: 300vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: 35%;
-    gap: 0;
-
-  }
-
-  .hero__inner {
-    align-items: center;
-    width: 100%;
-    height: 300vh;
-    justify-content: center;
-    background-color: #af5c5c;
-  }
-
+ 
   .hero {
     padding: 0;
     margin: 0;
-  }
-
-  .hero__button {
-    width: 250px;
-    height: 70px;
-    font-size: 2.5rem;
   }
 
   .container {
@@ -83,14 +67,15 @@
     height: 100vh;
   }
 
-  .hero__image {
-    padding: 0;
-    width: 150vh;
-    height: 150vh;
+  .container__hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12%;
+    background-color: maroon;
+    height: fit-content;
   }
 
-  .hero__image img {
-    width: 150vh;
-    height: 150vh;
+  .hero__image {
+    padding-bottom: 25%;
   }
 }

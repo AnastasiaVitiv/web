@@ -1,15 +1,14 @@
 .section3 {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
-  padding: 50px 197px 116px 197px;
+  background-color: brown;
+  height:fit-content;
 } 
 
 
 .stories__header {
   display: flex;
-  justify-content: space-between;
-  /* margin: ;80px */
+  justify-content: space-around;
   flex-direction: row;
   align-items: baseline;
 }
@@ -31,17 +30,15 @@
 }
 
 .story {
-  width: 266px;
-  height: 446px;
   display: flex;
   flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .story img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  width: 261px;
-  height: 231px;
   object-fit: cover;
 }
 
@@ -74,34 +71,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 150rem;
-    width: 105rem;
   }
 
   .story {
     width: 40rem;
-    height: 65rem;
     justify-items: center;
   }
 
-  .story img {
-    width: 40rem;
-    height: 33rem;
-  }
-
   .link {
-    font-size: 3rem;
-    line-height: 3rem;
-    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
   }
 
   .subheading {
-    font-size: 2.75rem;
-    line-height: 2.75rem;
+    font-size: 1.75rem;
+    line-height: 1.75rem;
   }
 
   .story__text {
-    font-size: 2.75rem;
-    line-height: 3rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
   }
 }
