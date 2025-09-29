@@ -7,7 +7,6 @@
 body {
   font-family: "Inter", sans-serif;
   color: #7D7987;
-  background-color: indigo;
 }
 
 li {
@@ -42,8 +41,8 @@ a {
   }
 
   .heading {
-    font-size: 1.75rem;   
-    line-height: 10.725rem; 
+    font-size: 1.5rem;   
+    line-height: 7.725rem; 
     font-weight: 700;
     color: #000000;
     font-family: "Playfair Display";
