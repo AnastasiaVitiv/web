@@ -10,7 +10,6 @@
 
 
 .testimonial__text {
-  width: 450px;
   display: flex;
   flex-direction: column; 
   height: fit-content;
